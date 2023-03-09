@@ -1,4 +1,5 @@
-FROM python:3.9-alpine3.13
+#FROM python:3.9-alpine3.13
+FROM python:3.10-slim-bullseye
 LABEL maintainer=""
 
 ENV PYTHONUNBUFFERED 1
